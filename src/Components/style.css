@@ -1,0 +1,30 @@
+.list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    margin-bottom: 20px;
+}
+.card .but{
+    background-color: white; 
+    color:rgb(120, 120, 223); 
+    border: none;
+}
+.card .but:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+
+  .add{
+      margin:50px 20%
+  }
+  .cart{
+    margin:50px 35%;
+    box-shadow:0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .tlist{
+     margin:10px 45%
+  }
